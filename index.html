@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Karta News</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <div class="container">
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">  &#9855;Menu</span>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </nav>
+
+
+    
+
+    <!-- Page Header -->
+    <div id="igh">
+    <header class="masthead" style="background-image: url('img/news.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>Newscible</h1>
+              <span class="subheading">Your Source Of Accessible News.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </header>
+
+
+
+
+  
+
+  <!-- Main Content -->
+  <div id ="bgs" style="color:black;background-color:white;font-size:20px; ">
+
+  <div id="accs">
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <ul class="navbar-nav ml-auto">
+  <li><button onclick="highcontrast()">High Contrast</button></li>
+  <li><button onclick="black()">Inverted</button></li>
+  <li><button onclick="increasefont()">Font Size+</button></li>
+  <li><button onclick="decreasefont()">Font Size- </button></li>
+  <li><button onclick="grayscale()">Image Grayscale</button></li>
+  <li><button onclick="imginvert()">Image Invert</button></li>
+  </ul>
+  <div class="dropdown">
+  <button>Choose Color</button>
+  <div class="dropdown-content">
+    <ul class="navbar-nav ml-auto">
+    <li><button class="orangebutton" onclick="orange()"></button></li>
+      <li><button class="redbutton" onclick="red()"></button></li>
+      <li><button class="greenbutton" onclick="green()"></button></li>
+      <li><button class="bluebutton" onclick="blue()"></button></li>
+      <li><button class="graybutton" onclick="gray()"></button></li>
+    </ul>
+  </div>
+</div>
+  <br>
+  <form method="get" action="">
+    <button type="submit">Clear</button>
+</form>
+</div>
+</div>
+
+    <div class="container">  
+      <div>
+        
+    
+      <div class="row">
+
+
+        <div class="col-lg-8 col-md-10 mx-auto">
+        
+          <article>
+          <h1>What is Online News?</h1>
+          <p>An online newspaper is the online version of a newspaper, either as a stand-alone publication or as the online version of a printed periodical.</p>
+          
+          <h1>What is Accessibility?</h1>
+          <p>Accessibility involves two key issues: how users with disabilities access electronic information and how web content designers and developers enable web pages to function with assistive devices used by individuals with disabilities.</p>
+          
+          <div id="ig" style="float:right;">
+            <img src="img/accessibility.png" alt="accessibility" width="300" height="300">
+          </div>
+
+          <p>For the user with a disability, the challenge is to identify tools that provide the most convenient access to web-based and other electronic information. For the web content designer/developer, the challenge is to remove the obstacles that prevent accessibility tools from functioning effectively. In many cases, these challenges are relatively simple to overcome, but sometimes the solutions require some additional thought and effort.</p>
+        </article>
+
+
+
+        <div class="jumbotron">
+          <h1> Let us read it for you!</h1>
+          <div class=buttons>
+            <button id=play > &#9654;</button> &nbsp;
+            <button id=pause>&#9208;</button> &nbsp;
+            <button id=stop>&#9632;</button>
+           </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+    <hr>
+</div>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <ul class="list-inline text-center">
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+            </ul>
+            <br>
+             <i>Note: For easier access in this website press H for HomePage, A for About us, N for News and C for Contact us page.</i>
+             <br>
+             <i>Press W for larger font size and Q for smaller font size.</i>
+             <br>
+             <i>Press I to invert image and G to grayscale images.</i>
+             <br>
+             <i>Press ESC to restore default site.</i>
+             <br>
+            <p class="copyright text-muted">Copyright &copy; Kartavya Basnet 2018</p>
+
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="http://code.responsivevoice.org/responsivevoice.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+
+    function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+    <script>
+      function highcontrast() {
+        document.getElementById('bgs').style.backgroundColor="yellow";
+        document.getElementById('bgs').style.color="black";
+      }
+    </script>
+
+     <script>
+      function black() {
+        document.getElementById('bgs').style.color="white";
+        document.getElementById('bgs').style.backgroundColor="black";
+         
+      }
+    </script>
+
+     <script>
+      function increasefont() {
+          txt = document.getElementById('bgs');
+         style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+         currentSize = parseFloat(style);
+         txt.style.fontSize = (currentSize + 5) + 'px';
+      }
+    </script>
+
+     <script>
+      function decreasefont() {
+       txt = document.getElementById('bgs');
+         style = window.getComputedStyle(txt, null).getPropertyValue('font-size');
+         currentSize = parseFloat(style);
+         txt.style.fontSize = (currentSize - 5) + 'px';
+      }
+    </script>
+
+    <script>
+      function grayscale() {
+          document.getElementById("ig").style.filter = "grayscale(100%)";
+          document.getElementById("igh").style.filter = "grayscale(100%)";
+      }
+    </script>
+
+    <script>
+      function imginvert() {
+          document.getElementById("ig").style.filter = "invert(100%)";
+          document.getElementById("igh").style.filter = "invert(100%)";
+      }
+    </script>
+
+    <script>
+      function orange() {
+        document.getElementById('bgs').style.color="black";
+        document.getElementById('bgs').style.backgroundColor="orange";
+         
+      }
+    </script>
+
+   <script>
+      function red() {
+        document.getElementById('bgs').style.color="white";
+        document.getElementById('bgs').style.backgroundColor="red";
+         
+      }
+    </script>
+
+    <script>
+      function blue() {
+        document.getElementById('bgs').style.color="white";
+        document.getElementById('bgs').style.backgroundColor="blue";
+         
+      }
+    </script>
+
+    <script>
+      function green() {
+        document.getElementById('bgs').style.color="black";
+        document.getElementById('bgs').style.backgroundColor="green";
+         
+      }
+    </script>
+
+    <script>
+      function gray() {
+        document.getElementById('bgs').style.color="black";
+        document.getElementById('bgs').style.backgroundColor="gray";
+         
+      }
+    </script>
+
+    <script> 
+
+     onload = function() {
+    if ('speechSynthesis' in window) with(speechSynthesis) {
+
+        var playEle = document.querySelector('#play');
+        var pauseEle = document.querySelector('#pause');
+        var stopEle = document.querySelector('#stop');
+        var flag = false;
+
+        playEle.addEventListener('click', onClickPlay);
+        pauseEle.addEventListener('click', onClickPause);
+        stopEle.addEventListener('click', onClickStop);
+
+        function onClickPlay() {
+            if (!flag) {
+                flag = true;
+                utterance = new SpeechSynthesisUtterance(document.querySelector('article').textContent);
+                utterance.voice = getVoices()[0];
+                utterance.onend = function() {
+                    flag = false;
+                    playEle.className = pauseEle.className = '';
+                    stopEle.className = 'stopped';
+                };
+                playEle.className = 'played';
+                stopEle.className = '';
+                speak(utterance);
+            }
+            if (paused) { /* unpause/resume narration */
+                playEle.className = 'played';
+                pauseEle.className = '';
+                resume();
+            }
+        }
+
+        function onClickPause() {
+            if (speaking && !paused) { /* pause narration */
+                pauseEle.className = 'paused';
+                playEle.className = '';
+                pause();
+            }
+        }
+
+        function onClickStop() {
+            if (speaking) { /* stop narration */
+                /* for safari */
+                stopEle.className = 'stopped';
+                playEle.className = pauseEle.className = '';
+                flag = false;
+                cancel();
+
+            }
+        }
+
+    }
+
+    else { /* speech synthesis not supported */
+        msg = document.createElement('h5');
+        msg.textContent = "Detected no support for Speech Synthesis";
+        msg.style.textAlign = 'center';
+        msg.style.backgroundColor = 'red';
+        msg.style.color = 'white';
+        msg.style.marginTop = msg.style.marginBottom = 0;
+        document.body.insertBefore(msg, document.querySelector('div'));
+    }
+
+}
+    </script>
+
+   <script>
+     window.onkeydown = function (e) {
+      var code = e.keyCode ? e.keyCode : e.which;
+      if (code === 78) { //up key
+         window.location.assign("news.html");
+      } else if (code === 65) { //down key
+          window.location.assign("about.html");
+      }
+      else if (code === 72) { //down key
+          window.location.assign("index.html");
+      }
+      else if (code === 67) { //down key
+          window.location.assign("contact.html");
+      }
+       else if (code === 71) { //down key
+        grayscale();
+      }
+      else if (code === 73) { //down key
+        imginvert();
+      }
+      else if (code === 27) { //down key
+        window.location.assign("");
+      }
+      else if (code === 81) { //down key
+        decreasefont();
+      }
+      else if (code === 87) { //down key
+        increasefont();
+        
+      }
+      else if (code === 77) { //down key
+       openNav();
+      }
+    };
+   </script>
+  </body>
+
+</html>
